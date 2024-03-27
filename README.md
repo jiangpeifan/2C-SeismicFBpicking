@@ -1,6 +1,6 @@
 # 2C-SeismicFPpicking
 
-![image](2C mask strategy.jpg)
+![image](2Cmaskstrategy.jpg)
 
 ## Paper
 
