@@ -61,7 +61,7 @@ if __name__ == "__main__":
     net.load_state_dict(torch.load(MODEL_FILENAME))
     net.eval()
 
-    pbar = tqdm(total=len(image_list))  # 进度条
+    pbar = tqdm(total=len(image_list))
 
     for i, name in enumerate(image_list):
         mask = test_one_image(net, name)
