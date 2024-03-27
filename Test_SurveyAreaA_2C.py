@@ -1,15 +1,11 @@
-import random
-import time
 
 import torch
 from torch.autograd import Variable as V
-import matplotlib.pyplot as plt
 import cv2
 import os
 import importlib
 import numpy as np
 from tqdm import tqdm
-from PIL import Image
 
 SOURCE_PATH = r'./dataA'
 TARGET_PATH = rf'./A'
