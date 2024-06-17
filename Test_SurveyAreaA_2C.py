@@ -1,4 +1,3 @@
-
 import torch
 from torch.autograd import Variable as V
 import cv2
@@ -12,10 +11,6 @@ TARGET_PATH = rf'./A'
 MODEL_FILENAME = r'weights/USwinNet_A.th'
 
 MODEL_NAME = r'USwinNet_2C'
-
-def horizontal_clip(image, w, i):
-    sh, sw = image.shape[0], image.shape[1]
-    return image[:, w * i: w * (i + 1)]
 
 
 def test_one_image(net, img):

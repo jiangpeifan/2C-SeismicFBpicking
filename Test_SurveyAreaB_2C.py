@@ -7,7 +7,7 @@ import numpy as np
 from tqdm import tqdm
 
 SOURCE_PATH = r'./dataB'
-TARGET_PATH = rf'./USwinNet_2C_shunbei_2C_lb12_bceLOSS_20231129_bestiou'
+TARGET_PATH = rf'./B'
 MODEL_FILENAME = r'weights/USwinNet_B.th'
 MODEL_NAME = r'USwinNet_2C'
 
